@@ -1,0 +1,135 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+}
+/* topbar style starts from here */
+.topbar-section{
+    background-color: aliceblue;
+    border: 2px solid aliceblue;
+}
+.topbar-link{
+    margin: 3% 0 0 60%;
+}
+li{
+    display: inline;
+    padding: 0 17px;
+}
+li a{
+    text-decoration: none;
+    color: burlywood;
+}
+h1{
+    color: cadetblue;
+    font-size: 50px;
+}
+/* introduction section starts from here */
+span{
+    color:burlywood;
+    font-size: 50px;
+}
+.intro-image{
+    width: 100%;
+}
+.introduction-section{
+    height: 350px;
+}
+.half-width{
+    width: 35%;
+    float: left;
+    margin-left: 5%;
+    padding: 4%;
+}
+.half-width a{
+    text-decoration: none;
+    border: 1px solid;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 7px;
+    background-image: linear-gradient(orange, tomato);
+}
+/* about section style starts from here */
+.about-section{
+    height: 800px;
+}
+.aboutSection-image{
+    width: 100%;
+}
+/* project section style starts from here */
+.project-section{
+    height: 700px;
+}
+.project-section h3{
+    text-align: center;
+    color: cadetblue;
+    font-size: 40px;
+}
+.project-width{
+    height: 450px;
+    width: 15%;
+    float: left;
+    padding: 2%;
+    margin: 10px;
+    text-align: justify;
+    border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 30px gray ;
+}
+.project1{
+    margin-left: 20%;
+}
+.project-image{
+    width: 100%;
+}
+/* lets talk with me section style starts from here */
+.lets-talk-section{
+    height: 250px;
+    width: 90%;
+}
+.lets-talk-div{
+    height: 180px;
+    width: 700px;
+    margin: 2% 0 0 25%;
+    background-image: url("images/background.png");
+    background-size: 700px 180px;
+}
+.lets-talk-child h3{
+    font-size: 35px;
+    float: left;
+    margin: 10% 0 0 12%;
+    color: white;
+}
+.lets-talk-child a{
+    float: right; 
+    margin: 10% 15% 0 0 ;
+    color:white;
+    font-size: 30px;
+    text-decoration: none;
+}
+/* review me section style starts from here */
+.review-me{
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 5%;
+}
+.review-me h3{
+    color: cornflowerblue;
+    font-size: 35px;
+}
+/* footer section style starts from here */
+.footer-section{
+    font-size: 30px;
+    text-align: center;
+    margin: 5%;
+}
+.footer-section span{
+    font-size: 20px;
+    color: lightslategray;
+}
+.footer-section a{
+    text-decoration: none;
+    color: salmon;
+}
+.footer-section img{
+    width: 30px;
+    padding: 10px;
+}
